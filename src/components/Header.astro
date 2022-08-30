@@ -1,0 +1,54 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../config';
+---
+
+<header>
+	<!-- <h2>
+		{SITE_TITLE}
+	</h2> -->
+	<!-- <nav>
+		<HeaderLink href="/">Home</HeaderLink>
+		<HeaderLink href="/blog">Blog</HeaderLink>
+		<HeaderLink href="/about">About</HeaderLink>
+		<HeaderLink href="https://twitter.com/astrodotbuild" target="_blank">Twitter</HeaderLink>
+		<HeaderLink href="https://github.com/withastro/astro" target="_blank">GitHub</HeaderLink>
+	</nav> -->
+	<div class="container">
+		<div class="terminal-nav">
+		  <div class="terminal-logo">
+			<div class="logo terminal-prompt">
+			  <a href="/" class="no-style">Home</a>
+			</div>
+		  </div>
+		  <!-- <div class="terminal-menu">
+			<ul>
+			  <li>
+				<a class="menu-item" href="/blog">Blog</a>
+			  </li>
+			  <li>
+				<a class="menu-item" href="/about">About</a>
+			  </li>
+			  <li>
+				<a class="menu-item" href="/contact">Contact</a>
+			  </li>
+			</ul>
+		  </div> -->
+		  <nav class="terminal-menu">
+			<ul>
+				<li>
+				  <a class="menu-item" href="/blog">Blog</a>
+				</li>
+				<li>
+				  <a class="menu-item" href="/about">About</a>
+				</li>
+				<li>
+				  <a class="menu-item" href="/contact">Contact</a>
+				</li>
+			  </ul>
+		</nav>
+
+		</div>
+	  </div>
+</header>
+
